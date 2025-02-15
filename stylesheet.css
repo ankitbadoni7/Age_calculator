@@ -1,0 +1,106 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+        }
+        @keyframes neon {
+            0% { text-shadow: 0 0 5px #e1d0d0; }
+            50% { text-shadow: 0 0 20px #de12d7, 0 0 30px #ff6b6b; }
+            100% { text-shadow: 0 0 5px #eedf0c; }
+        }
+        
+        .heading {
+            font-size: 20px;
+            font-weight: bold;
+            color: #000000;
+            text-transform: uppercase;
+            animation: neon 1.5s infinite alternate;
+        }
+        
+        label {
+            font-size: 18px;
+            color: #fff;
+        }
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+        }
+        button {
+            background-color: blue;
+            color: rgb(21, 17, 17);
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: rgb(0, 0, 211);
+        }
+        #result {
+            font-size: 20px;
+            color: rgb(5, 10, 60);
+            margin-top: 15px;
+        }
+        button {
+            background: #247587;
+            color: rgb(235, 215, 215);
+            padding: 10px 2px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        
+        #dob {
+            display: block; /* Taaki input box full width pe na chippake */
+            width: 95%; /* Input box thoda chhota ho */
+            margin-right: 20px; /* Right side se space mile */
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9); /* Light shadow effect */
+        }
+        
+        
+        button:hover {
+            background: #ff4757;
+            box-shadow: 0 0 15px #ff4757;
+        }
+        
+        body {
+            background: linear-gradient(45deg, #25da64, #100dc8);
+            background-size: 200% 200%;
+            animation: gradientMove 5s ease infinite;
+        }
+        
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        
+        
+        
+          
